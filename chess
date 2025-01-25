@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="Chess/chess.css">
+</head>
+h1{
+    color: brown;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+.main{
+    border:5px solid rgb(198, 4, 4);
+    height:560px;
+    width:560px;
+    margin:0px auto;
+    margin-top:20px;
+    position:relative;
+}
+.one{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.two{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:0px;
+    left:70px;
+}
+.three{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:0px;
+    left:140px;
+}
+.four{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:0px;
+    left:210px;
+}
+.five{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:0px;
+    left:280px;
+} 
+.six{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:0px;
+    left:350px; 
+}
+.seven{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:0px;
+    left:420px;
+}
+.nine{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:0px;
+    left:490px;  
+}
+.second-1{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:70px;
+    left:0px;
+}
+.second-2{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:70px;
+    left:70px;
+}
+.second-3{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:70px;
+    left:140px;
+}
+.second-4{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:70px;
+    left:210px;
+}
+.second-5{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top: 70px;
+    left:280px;
+} 
+.second-6{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:70px;
+    left:350px; 
+}
+.second-7{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:70px;
+    left:420px;
+}
+.second-8{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:70px;
+    left:490px;  
+}
+.third-1{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:140px;
+    left:0px;
+}
+.third-2{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:140px;
+    left:70px;
+}
+.third-3{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:140px;
+    left:140px;
+}
+.third-4{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:140px;
+    left:210px;
+}
+.third-5{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top: 140px;
+    left:280px;
+} 
+.third-6{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:140px;
+    left:350px; 
+}
+.third-7{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:140px;
+    left:420px;
+}
+.third-8{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:140px;
+    left:490px;  
+}
+.fourth-1{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:210px;
+    left:0px;
+}
+.fourth-2{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:210px;
+    left:70px;
+}
+.fourth-3{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:210px;
+    left:140px;
+}
+.fourth-4{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:210px;
+    left:210px;
+}
+.fourth-5{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top: 210px;
+    left:280px;
+} 
+.fourth-6{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:210px;
+    left:350px; 
+}
+.fourth-7{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:210px;
+    left:420px;
+}
+.fourth-8{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:210px;
+    left:490px;  
+}
+.fifth-1{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:280px;
+    left:0px;
+}
+.fifth-2{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:280px;
+    left:70px;
+}
+.fifth-3{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:280px;
+    left:140px;
+}
+.fifth-4{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:280px;
+    left:210px;
+}
+.fifth-5{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top: 280px;
+    left:280px;
+} 
+.fifth-6{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:280px;
+    left:350px; 
+}
+.fifth-7{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:280px;
+    left:420px;
+}
+.fifth-8{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:280px;
+    left:490px;  
+}
+.sixth-1{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:350px;
+    left:0px;
+}
+.sixth-2{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:350px;
+    left:70px;
+}
+.sixth-3{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:350px;
+    left:140px;
+}
+.sixth-4{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:350px;
+    left:210px;
+}
+.sixth-5{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top: 350px;
+    left:280px;
+} 
+.sixth-6{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:350px;
+    left:350px; 
+}
+.sixth-7{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:350px;
+    left:420px;
+}
+.sixth-8{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:350px;
+    left:490px;  
+}
+.seventh-1{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:420px;
+    left:0px;
+}
+.seventh-2{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    top:420px;
+    left:70px;
+}
+.seventh-3{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    top:420px;
+    left:140px;
+}
+.seventh-4{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:420px;
+    left:210px;
+}
+.seventh-5{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top: 420px;
+    left:280px;
+} 
+.seventh-6{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:420px;
+    left:350px; 
+}
+.seventh-7{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    top:420px;
+    left:420px;
+}
+.seventh-8{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    top:420px;
+    left:490px;  
+}
+.eight-1{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+.eight-2{
+    height:70px;
+    width:70px;
+    background: black;
+    position:absolute;
+    bottom:0px;
+    left:70px;
+}
+.eight-3{
+    height:70px;
+    width:70px;
+    background:blue;
+    position:absolute;
+    bottom:0px;
+    left:140px;
+}
+.eight-4{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    bottom:0px;
+    left:210px;
+}
+.eight-5{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    bottom:0px;
+    left:280px;
+} 
+.eight-6{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    bottom:0px;
+    left:350px; 
+}
+.eight-7{
+    height:70px;
+    width:70px;
+    background: blue;
+    position:absolute;
+    bottom:0px;
+    left:420px;
+}
+.eight-8{
+    height:70px;
+    width:70px;
+    background:black;
+    position:absolute;
+    bottom:0px;
+    left:490px;  
+}
+<body>
+    <h1>Chess Board</h1>
+    <div class="main">
+        <div class="first">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+            <div class="six"></div>
+            <div class="seven"></div>
+            <div class="nine"></div>
+        </div>
+        <div class="second">
+            <div class="second-1"></div>
+            <div class="second-2"></div>
+            <div class="second-3"></div>
+            <div class="second-4"></div>
+            <div class="second-5"></div>
+            <div class="second-6"></div>
+            <div class="second-7"></div>
+            <div class="second-8"></div>
+        </div>
+        <div class="third">
+            <div class="third-1"></div>
+            <div class="third-2"></div>
+            <div class="third-3"></div>
+            <div class="third-4"></div>
+            <div class="third-5"></div>
+            <div class="third-6"></div>
+            <div class="third-7"></div>
+            <div class="third-8"></div>
+        </div>
+        <div class="fourth">
+            <div class="fourth-1"></div>
+            <div class="fourth-2"></div>
+            <div class="fourth-3"></div>
+            <div class="fourth-4"></div>
+            <div class="fourth-5"></div>
+            <div class="fourth-6"></div>
+            <div class="fourth-7"></div>
+            <div class="fourth-8"></div>
+        </div>
+        <div class="fifth">
+            <div class="fifth-1"></div>
+            <div class="fifth-2"></div>
+            <div class="fifth-3"></div>
+            <div class="fifth-4"></div>
+            <div class="fifth-5"></div>
+            <div class="fifth-6"></div>
+            <div class="fifth-7"></div>
+            <div class="fifth-8"></div>
+        </div>
+        <div class="sixth">
+            <div class="sixth-1"></div>
+            <div class="sixth-2"></div>
+            <div class="sixth-3"></div>
+            <div class="sixth-4"></div>
+            <div class="sixth-5"></div>
+            <div class="sixth-6"></div>
+            <div class="sixth-7"></div>
+            <div class="sixth-8"></div>
+        </div>
+        <div class="seventh">
+            <div class="seventh-1"></div>
+            <div class="seventh-2"></div>
+            <div class="seventh-3"></div>
+            <div class="seventh-4"></div>
+            <div class="seventh-5"></div>
+            <div class="seventh-6"></div>
+            <div class="seventh-7"></div>
+            <div class="seventh-8"></div>
+        </div>
+    <div class="eight">
+        <div class="eight-1"></div>
+        <div class="eight-2"></div>
+        <div class="eight-3"></div>
+        <div class="eight-4"></div>
+        <div class="eight-5"></div>
+        <div class="eight-6"></div>
+        <div class="eight-7"></div>
+        <div class="eight-8"></div>
+    </div>
+</div>
+</body>
+</html>
