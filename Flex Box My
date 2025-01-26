@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borderandits5properties</title>
+    <link rel="stylesheet" href="Web Layout2/Web Layout2.css">
+</head>
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+.main{
+    height:450px;
+    width:500px;
+    border: 10px rgb(0, 0, 0) solid;
+    margin:0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.nahid{
+    display: flex;
+    justify-content: space-between;
+}
+.hasan{
+    display: flex;
+    justify-content: center;
+}
+.bijoy{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    height: 80px;
+    width:80px;
+    background-color: aqua;
+}
+.two{
+    height: 80px;
+    width:80px;
+    background-color: rgb(22, 210, 1);
+}
+.three{
+    height: 80px;
+    width:80px;
+    background-color: rgb(4, 16, 247);
+}
+.four{
+    height: 80px;
+    width:80px;
+    background-color: rgb(255, 0, 8);
+}
+.five{
+    height: 80px;
+    width:80px;
+    background-color:purple;
+}
+
+<body>
+<div class="main">
+    <div class="nahid">
+        <div class="one"></div>
+        <div class="two"></div>
+    </div>
+    <div class="hasan">
+        <div class="three"></div>
+    </div>
+    <div class="bijoy">
+        <div class="four"></div>
+        <div class="five"></div>
+    </div>
+</div>
+</body>
+</html>
