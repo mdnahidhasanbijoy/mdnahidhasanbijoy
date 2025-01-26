@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USA flag</title>
+    <link rel="stylesheet" href="USA Flag/usa flag.css">
+</head>
+.main{
+    background: rgba(0, 0, 120, 0.813);
+    height:205px;
+    width:450px;
+    margin:0 auto;
+    margin-top:15px;
+    position:relative;
+}
+.one{
+    background:red;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:160px;
+    position:absolute;
+}
+.two{
+    background:white;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:175px;
+    position: absolute;
+}
+.three{
+    background:red;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:130px;
+    position: absolute;
+}
+.four{
+    background: white;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:145px;
+    position: absolute;
+}
+.five{
+    background: white;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:115px;
+    position: absolute;
+}
+.six{
+    background:red;
+    height:15px;
+    width:450px;
+    margin:0 auto;
+    margin-top:190px;
+    position: absolute;
+}
+.seven{
+    background:red;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:100px;
+    margin-left:150px;
+    position: absolute;
+}
+.eight{
+    background:white;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:85px;
+    margin-left:150px;
+    position: absolute;
+}
+.nine{
+    background:red;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:70px;
+    margin-left:150px;
+    position: absolute;
+}
+.ten{
+    background:white;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:55px;
+    margin-left:150px;
+    position: absolute;
+}
+.eleven{
+    background:red;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:40px;
+    margin-left:150px;
+    position: absolute;
+}
+.twelve{
+    background:white;
+    height:15px;
+    width:300px;
+    margin:0 auto;
+    margin-top:25px;
+    margin-left:150px;
+    position: absolute;
+}
+.thirteen{
+    background:red;
+    height:19px;
+    width:300px;
+    margin:0 auto;
+    margin-top:6px;
+    margin-left:150px;
+    position: absolute;
+}
+.fourteen{
+    background: white;
+    height:5px;
+    width:450px;
+    margin:0 auto;
+    margin-top:0px;
+    position: absolute;
+}
+.star1{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:65px;
+    margin-left:20px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star2{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:48px;
+    margin-left:20px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star3{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:65px;
+    margin-left:40px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star4{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:48px;
+    margin-left:40px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star5{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px; 
+    background:white;
+    margin:0px auto;
+    margin-top:65px;
+    margin-left:60px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star6{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:48px;
+    margin-left:60px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star7{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:60px;
+    margin-left:80px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star8{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:75px;
+    margin-left:70px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star9{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:30px;
+    margin-left:60px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star10{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:48px;
+    margin-left:90px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star11{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:50px;
+    margin-left:110px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.star12{
+    height:15px;
+    width: 15px;  
+    aspect-ratio:2px;
+    background:white;
+    margin:0px auto;
+    margin-top:15px;
+    margin-left:60px;
+    position:absolute;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+<body>
+    <div class="main">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+        <div class="nine"></div>
+        <div class="ten"></div>
+        <div class="eleven"></div>
+        <div class="twelve"></div>
+        <div class="thirteen"></div>
+        <div class="fourteen"></div>
+        <div class="star1"></div>
+        <div class="star2"></div>
+        <div class="star3"></div>
+        <div class="star4"></div>
+        <div class="star5"></div>
+        <div class="star6"></div>
+        <div class="star7"></div>
+        <div class="star8"></div>
+        <div class="star9"></div>
+       <div class="star10"></div>
+       <div class="star11"></div>
+       <div class="star12"></div>
+       <div class="star13"></div>
+       <div class="star14"></div>
+       <div class="star15"></div>
+       <div class="star16"></div>
+       <div class="star17"></div>
+       <div class="star18">z</div>
+    </div>
+</body>
+</html>
