@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT2</title>
+    <link rel="stylesheet" href="LAYOUT 2/LAYOUT2.css">
+</head>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.header{
+    width:100%;
+    display: flex;
+    gap: 20px;
+    background-color: red;
+    justify-content: space-between;
+
+}
+.one{
+    display: flex;
+    gap:20px;
+}
+.num-1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.language{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/* .menu-bar{
+    display: flex;
+} */
+ .list{
+    display: flex;
+    justify-content: center;
+    gap:35px;
+ }
+ ul li{
+    list-style: none;
+ }
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700px;
+    
+ }
+ .browse{
+    background-color: rgb(237, 60, 60);
+    border-radius: 15px;
+    padding:5px;
+    width:18%;
+    text-align: center;
+    margin-top: -12px;
+ }
+ .browse-1{
+    font-size: 35px;
+    text-align: center;
+ }
+ .content{
+    max-width: 38%;
+    margin-top: 70px;
+    margin-left: 70px;
+
+ }
+ 
+ .banner{
+    max-width: 55%;
+
+ }
+ /* .section{
+    display: flex;
+    justify-content: center;
+
+ } */
+.wrapper{
+    display: flex;
+    
+}
+.content-1{
+    font-size: 25px;
+}
+.content-2{
+    font-size: 50px;
+}
+.red{
+    color: red;
+    font-weight: 900;
+    font-size: 60px;
+    
+}
+.content-3{
+    font-size: 25px;
+}
+.banner-1{
+    height:90%;
+    width:90%;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+.button{
+    display: flex;
+    gap: 70px;
+    margin-top: 60px;
+}
+.btn-1 button{
+    /* display: flex;
+    justify-content: center; */
+    height: 50px;
+    width:200px;
+    background-color: rgb(241, 47, 47);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.btn-2 button{
+    /* display: flex;
+    justify-content: center; */
+    height: 50px;
+    width:200px;
+    background-color: rgb(241, 47, 47);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.small-1{
+    font-size: 20px;
+    color: white;
+}
+.small-2{
+    font-size: 20px;
+    color: #fff;
+}
+.small-1{
+    position: relative;
+    z-index: 2;
+}
+.small-1::after{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height:100%;
+    background-color: rgba(192, 170, 42, 0.85);
+    left: 0px;
+    right: 0px;
+    border-radius: 20px;
+    z-index: -1;
+
+}
+.small-1:hover::after{
+    width:100%;
+    background-color: rgba(7, 152, 32, 0.808);
+}
+
+<body>
+   <header>
+    <div class="header">
+       <div class="one">
+        <div class="num">
+            <p><a class="num-1" href="#">Number</a></p>
+        </div>
+        <div class="mail">
+            <p><a class="num-1" href="#">Email</a></p>
+        </div>
+       </div>
+        <div class="language">
+            <p><a class="lang-1" >BN</a></p>
+            <p><a class="lang" >EN</a></p>
+        </div>
+    </div>
+   </header>
+   <nav>
+    <div class="menu">
+        <div class="logo">
+            <img class="cit-logo" src="Images/logo1718088965.png">
+        </div>
+        <div class="menu-bar">
+            <ul class="list">
+        
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Success story</a></li>
+                <li><a href="">Freelancing</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+           
+        </div>
+        <div class="browse">
+            <a class="browse-1" href="#">Browse</a>
+        </div>
+    </div>
+   </nav>
+   <section class="section">
+    <div class="wrapper">
+    <div class="content">
+        <p class="content-1">Unleash your potential</p>
+        <br>
+        <h1 class="content-2">Become an IT Pro & <br>Rule the <br> <span class="red">Digital World</span></h1>
+        <br>
+        <p class="content-3">With a vision to turn manpower into assets, Creative IT Institute is ready to enhance your learning experience with skilled mentors and an updated curriculum. Pick your desired course from more than 45 trendy options.</p>
+        <div class="button">
+            <div class="btn-1">
+            <button class="small-1">
+                Browse Course
+            </button>
+        </div>
+            <div class="btn-2">
+                <button class="small-2">
+                    Join Free Seminar
+                </button>
+            </div>
+        </div>
+    </div>
+   <div class="banner">
+        <img class="banner-1" src="Images/473186305_1164842695267159_4154999571287382058_n.png" alt="">
+   </div>
+   </div>
+   </section>
+</body>
+</html>
