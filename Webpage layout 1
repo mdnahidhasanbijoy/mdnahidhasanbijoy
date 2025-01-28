@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAYOUT2</title>
     <link rel="stylesheet" href="LAYOUT 2/LAYOUT2.css">
-</head>
-*{
+    <style>
+    *{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -166,6 +166,8 @@ a{
     width:100%;
     background-color: rgba(7, 152, 32, 0.808);
 }
+    </style>
+</head>
 
 <body>
    <header>
