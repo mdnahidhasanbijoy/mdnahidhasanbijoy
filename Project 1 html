@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="Web Layout2/web layout2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- nav bar start -->
+     <nav>
+     <div class="container">
+      <div class="nav-wrapper">
+        <div>
+            <img src="Images/logo.png" alt="">
+        </div>
+        <div >
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Information</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+       </div>
+      </div>
+     </nav>
+     <!-- nav bar end -->
+      <!-- banner part start -->
+       <section id="banner-part">
+        <div class="container">
+          <div class="banner-text">
+             <h6>Explore natural Beauty</h6>
+             <h1><span>Discover</span>Wonderful Indonesia</h1>
+          </div> 
+        </div>
+       </section>
+      <!-- banner part end -->
+       <!-- holiday part start -->
+        <section id="holiday-part">
+            <div class="container">
+              <div class="holiday-content">
+                <div>
+                    <img src="Images/Sce2 img.jpg" alt="">
+                </div>
+                 <div class="holiday-text"> 
+                    <h3>EAST nUSA TENGGARA</h3>
+                    <h2>Have you <br><span>Enjoyed Your<br></span> holiday?</h2>
+                    <p>You will be amazed if you take part in this sailing Komodo island tour package. So it is also mandatory for you, besides enjoying Komodo tourism on Komodo Island, you also have to taste the marine tourism.  The beautiful waters of Komodo will make you meet many travelers from other countries.</p>
+                    <a href="#">Read More</a>
+                </div>
+             </div>
+            </div>
+        </section>
+       <!-- holiday part end -->
+        <!-- climb part start -->
+         <section id="climb-part">
+            <div class="container">
+                <div class="climb-content">
+                    <div>
+                        <img src="Images/climb.jpg">
+                    </div>
+                    <div class="climb-text">
+                        <h4>BROMO</h4>
+                        <h5>Steady your steps, we <br>will climb together!</h5>
+                        <p>Enjoying the vast expanse of the sea of ​​​​sand, witnessing the splendor of Mount Semeru that soars into the sky, and gazing at the beauty of the sun moving out of its bed or otherwise enjoying the dim twilight from the Bromo ridge is an unforgettable experience when visiting Bromo. </p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- climb part end -->
+         <!-- explore part start -->
+         <section id="explore-part">
+            <div class="container">
+                <div class="explore-content">
+                    <div class="explore-1">
+                        <img src="Images/explore1.png">
+                     <div class="explore-text1" height="100%">
+                        <p>Explore</p>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                    </div>
+                    <div class="explore-1">
+                        <img src="Images/explore2.png" height="100%">
+                     <div class="explore-text1">
+                        <p>Explore</p>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                    </div>
+                    <div class="explore-1">
+                        <img src="Images/explore3.png" height="100%">
+                     <div class="explore-text1">
+                        <p>Explore</p>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read More</a>
+                     </div>
+                    </div>
+                    <!-- <div class="explore-2">
+                        <img src="Images/explore2.png">
+                        <p>Explore</p>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div class="explore-3">
+                        <img src="Images/explore3.png">
+                        <p>Explore</p>
+                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="#">Read More</a>
+                    </div> -->
+
+                </div>
+            </div>
+         </section>
+
+         <!-- explore part end-->
+         <!-- culture part start -->
+         <section id="culture-part">
+            <div class="container">
+                <div class="culture-content">
+                    <div class="culture-text">
+                        <h3>Indonesian Culture</h3>
+                        <h1>Our culture here<br> is very friendly<br> to people</h1>
+                        <p>known for his politeness, manners and gentleness. This becomes a characteristic when they mingle with other tribes and become basic traits that are passed down by their ancestors.</p>
+                        <a href="#" class="culturea">Read More</a>
+                    </div>
+                    <div>
+                        <img src="Images/culture.jpg">
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- culture part end -->
+          <!-- footer start -->
+           <section class="footer-part">
+            <div class="container">
+                <div class="footer-content">
+                    <div>
+                        <img src="Images/logo.png">
+                    </div>
+                    <div>
+                        <ul class="footer-menu1">
+                            <li>Services</li>
+                            <li>Email Marketing</li>
+                            <li>Services</li>
+                            <li>Branding</li>
+                            <li>Offline</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-menu2">
+                            <li>About</li>
+                            <li>Our Story</li>
+                            <li>Benefits</li>
+                            <li>Term</li>
+                            <li>Career</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footer-menu3">
+                            <li>Help</li>
+                            <li>FAQ'S</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="footer-text">
+                        <h2>Let's go on vacation,<br> Make your day</h2>
+                        <p>Terms & Conditions</p>
+                    </div>
+                    <div class="footer-img">
+                        <img src="Images/icon.jpg" height="50px">
+                    </div>
+                    <div class="button-part">
+                        <p>Get Started</p>
+                    </div>
+                    <div class="footer-add">
+                        <p>Ready to Explore?</p>
+                    </div>
+                </div>
+            </div>
+           </section>
+          <!-- footer end -->
+           <!-- button start -->
+        
+           <!-- button end -->
+    </body>
+</html>
