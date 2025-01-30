@@ -3,6 +3,7 @@
     margin:0px;
     padding:0px;
     font-family: "open sans",serif ;
+    
 }
 body{
     background-color: #000;
@@ -201,6 +202,26 @@ h5{
 .explore-1:hover .explore-text1{
     opacity:1;
 }
+.explore-text1{
+    width:249px;
+    padding:160px 50px 56px 50px ;
+    text-align: center;
+}
+.ex-1{
+    color: #FFA343;
+    font-weight: 600;
+    font-style: oblique;
+}
+.ex-2{
+    color: #FFA343;
+    font-weight: 600;
+    font-style: oblique;
+}
+.ex-3{
+    color: #FFA343;
+    font-weight: 600;
+    font-style: oblique;
+}
 .explore-2:hover{
     opacity:0.5;
 }
@@ -300,10 +321,10 @@ h5{
     padding: 40px 0px;
     font-size: 12px;
 }
-.footer-img{
+/* .footer-img{
  height: 20px;
  width:60px;
-}
+} */
 /* footer end */
 /* button start */
 .button-part{
@@ -326,7 +347,7 @@ h5{
     font-weight: bold;
     z-index: 2;
 }
-.button-part p::before{
+.button-part::before{
     content:"";
     position:absolute;
     height: 100%;
@@ -334,14 +355,14 @@ h5{
     top:0;
     left:0;
     background-color: red;
-    border-radius: 20px;
-    z-index: -1;
+    border-radius: 10px;
+    /* z-index: -1; */
     transition: 1s;
 }
-.button-part p:hover::before{
+.button-part:hover::before{
     width: 100%;
     opacity: .5;
-    z-index: -1;
+    
 }
 .footer-add{
     color: white;
@@ -352,3 +373,10 @@ h5{
     color: #FFA343;
 }
 /* button end */
+/* social icon start */
+.social-icon{
+    margin-top: 300px;
+    display: flex;
+    gap:20px;
+}
+/* social icon end */
