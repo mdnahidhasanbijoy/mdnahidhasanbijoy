@@ -81,7 +81,7 @@
                     <div class="explore-1">
                         <img src="Images/explore1.png">
                      <div class="explore-text1" height="100%">
-                        <p>Explore</p>
+                        <p class="ex-1">Explore</p>
                         <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a href="#">Read More</a>
                      </div>
@@ -89,7 +89,7 @@
                     <div class="explore-1">
                         <img src="Images/explore2.png" height="100%">
                      <div class="explore-text1">
-                        <p>Explore</p>
+                        <p class="ex-2">Explore</p>
                         <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a href="#">Read More</a>
                      </div>
@@ -97,7 +97,7 @@
                     <div class="explore-1">
                         <img src="Images/explore3.png" height="100%">
                      <div class="explore-text1">
-                        <p>Explore</p>
+                        <p class="ex-3">Explore</p>
                         <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                         <a href="#">Read More</a>
                      </div>
@@ -173,21 +173,24 @@
                         <h2>Let's go on vacation,<br> Make your day</h2>
                         <p>Terms & Conditions</p>
                     </div>
-                    <div class="footer-img">
+                    <!-- <div class="footer-img">
                         <img src="Images/icon.jpg" height="50px">
-                    </div>
+                    </div> -->
                     <div class="button-part">
                         <p>Get Started</p>
                     </div>
                     <div class="footer-add">
                         <p>Ready to Explore?</p>
                     </div>
+                    <div class="social-icon">
+                        <img src="Images/Path (1).svg">
+                        <img src="Images/004-instagram.svg">
+                        <img src="Images/Path.svg">
+                    </div>
                 </div>
             </div>
            </section>
           <!-- footer end -->
-           <!-- button start -->
-        
-           <!-- button end -->
+          
     </body>
 </html>
