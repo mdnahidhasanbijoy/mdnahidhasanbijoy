@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grill-logo{
+    background-size:30px;
+    margin-left: 50px;
+}
+.kitchen{
+    display: block;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.taste{
+    margin-left: 600px;
+    margin-top: -60px;
+}
+.recipes{
+    margin-left: 700px;
+    margin-top: -60px;
+}
+.blog{
+    margin-left: 800px;
+    margin-top: -60px; 
+}
+.contact{
+    margin-left: 900px;
+    margin-top: -60px; 
+}
+.tel-button{
+    background-color: #FF6624;
+    height:60px;
+    width:250px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: 1000px;
+    position: relative;
+}
+.tel-button p{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    /* padding:0px; */
+    position: absolute;
+    font-size: 400;
+    font-weight: bold;
+    text-align:center;
+}
+.tel-button:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.phicon{
+    height: 20px;
+    width:22px;
+   
+}
+.tw{
+    margin-left: 1300px;
+    margin-top: -50px;
+}
+.fb{
+    margin-left: 1380px;
+    margin-top: -40px;
+}
+/* svg:hover path{
+    color: rgba(4, 4, 180, 0.772);
+} */
+
+#banner{
+    background-image:url(../project2/Rectangle\ 1.png);
+    background-position: center;
+    background-size: cover;
+    height: 470px;
+    width: 1540px;
+    margin-top: 50px;
+}
+.banner-text{
+    text-align: center;
+    font-family: "open sans", serif;
+    font-size: 25px;
+    margin-left: 900px;
+    color: #AB0505;
+    padding-top: 150px;
+}    
+.banner-text p{
+    color: black;
+    font-size: 18px;
+}
+.button-2{
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #FF6B2C;
+    margin-top: 60px;
+    margin-left: 1150px;
+    position: absolute;
+}
+.button-2 p{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.button-2:hover{
+    background-color: black;
+    transition: 1s;
+}
+#taste-food{
+    width: 1540px;
+    height:1900px;
+}
+.taste-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -730px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "open sans",serif;
+}
+.salad{
+    display: flex;
+    gap:30px;
+    margin-left: -450px;
+    margin-top: 60px;
+
+}
+.salad:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.salad-img{
+    height: 100px;
+    width: 120px;
+    
+}
+.salad-img img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+.salad-text{
+    color: black;
+}
+.cake{
+    display: flex;
+    gap: 30px;
+    margin-left: -50px;
+    margin-top: -100px;
+}
+.cake:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.cake-img{
+    height: 100px;
+    width: 120px;
+}
+.cake-img img{
+    height: 100%;
+    width:100%;
+}
+.cake-text{
+    color: black;
+}
+.burger{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+.burger:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.burger-img{
+    height: 100px;
+    width: 120px;
+}
+.burger-img img{
+    height: 100%;
+    width:100%;
+}
+.burger-text{
+    color: black;
+}
+.icecream{
+    display: flex;
+    gap: 30px;
+    margin-left: -450px;
+    margin-top: 80px;
+}
+.icecream:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.icecream-img{
+    height: 100px;
+    width: 120px;
+}
+.icecream-img img{
+    height: 100%;
+    width:100%;
+}
+.icecream-text{
+    color: black;
+}
+.pasta{
+    display: flex;
+    gap: 30px;
+    margin-left: -50px;
+    margin-top: -100px;
+}
+.pasta:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.pasta-img{
+    height: 100px;
+    width: 120px;
+}
+.pasta-img img{
+    height: 100%;
+    width:100%;
+}
+.pasta-text{
+    color: black;
+}
+.cookies{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+    margin-top: -100px;
+}
+.cookies:hover{
+    background-color: #FF6624;
+    width: 380px;
+}
+.cookies-img{
+    height: 100px;
+    width: 120px;
+}
+.cookies-img img{
+    height: 100%;
+    width:100%;
+}
+.cookies-text{
+    color: black;
+}
+.button-taste{
+    background-color: #FF6624;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    position: absolute;
+    border-radius: 20px;
+}
+.button-taste p{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 12px;
+}
+.button-taste:hover{
+    background-color: black;
+    transition: 1s;
+}
+.danda{
+    /* color: #D9D9D9; */
+    background-color: #D9D9D9;
+    height: 4px;
+    width: 430px;
+    margin-top: 150px;
+    margin-left: -90px;
+
+}
+.recipes-text p{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -1400px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "open sans",serif;
+}
+.recipes-items{
+    display: flex;
+    height: 240px;
+    width: 260px;
+    margin-left: -1220px;
+    margin-top: 20px;
+ 
+}
+
+.recipes-items2{
+    display: flex;
+    height: 240px;
+    width: 260px;
+    margin-left: -1220px;
+ 
+}
+.r-1:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-2:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-3:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-4:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-5:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-6:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-7:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.r-8:hover{
+    transform: scale(0.85);
+    transition: 1s;
+}
+.button-recipes{
+    background-color: #FF6624;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    position: absolute;
+    border-radius: 20px;
+    margin-left: -620px;
+}
+.button-recipes p{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    margin-top: 12px;
+}
+.button-recipes:hover{
+    background-color: black;
+    transition: 1s;
+}
+.danda-2{
+    /* color: #D9D9D9; */
+    background-color: #D9D9D9;
+    height: 4px;
+    width: 430px;
+    margin-top: 170px;
+    margin-left: -750px;
+
+}
+.danda-2 p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.ellipse-img{
+    height: 90px;
+    width: 90px;
+    margin-top: 180px;
+    margin-left: -130px;
+}
+.ellipse-img img{
+    height: 100%;
+    width: 100%;
+    margin-top: -5px;
+}
+.ellipse{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap:10px; */
+    heigh:170px;
+    width:1000px;
+    margin-top: -100px;
+    margin-left: -10px;
+    
+}
+.button-blog{
+    background-color: #FF6624;
+    height:40px;
+    width: 150px;
+    margin-top: 120px;
+    margin-left: 80px;
+    border-radius: 20px;
+    position: absolute;
+}
+.button-blog p{
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-top: 8px;
+}
+.footer-logo{
+    width: 1540px;
+    height: 500px;
+    background-color:#FF6624;
+}
+.food-logo svg{
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
+}
+.logo-text p{
+    margin-left: 250px;
+    margin-top: -20px;
+    font-family: "playfair display";
+    font-size: 18px;
+    color: white;
+}
+.followus{
+    color: white;
+    margin-left: 250px;
+    margin-top: 30px;
+    font-size: medium;
+    font-family: "Dm sans";
+    
+
+}
+.followus a{
+    text-decoration: none;
+    color: white;
+}
+.followus a:hover{
+    color: #AB0505;
+
+}
+.social-icon{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.menu{
+    /* text-decoration: none; */
+    margin-top: -200px;
+    margin-left: 700px;
+    color: #D9D9D9;
+    font-size: 500;
+    font-size: 22px;
+}
+.menu-items li {
+    list-style: none;
+
+
+}
+.menu-items li a{
+    color: #D9D9D9;
+    text-decoration: none;
+
+}
+.menu-items li a:hover{
+    color: red;
+}
+.menu-items .home a{
+    color: white;
+    font-family: "Dm sans";
+}
+.newsletter{
+    margin-left: 1200px;
+    margin-top: -130px;
+    color: white;
+    font-family: "Dm sans";
+    
+}
+
+.newsletter form input{
+    background-color: #FF6624;
+    height: 30px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+}
+ /* .newsletter form .send{
+    margin-top: 50px;
+    margin-left: -170px;
+    height: 30px;
+    width: 90px; 
+} */
+.newsletter form button{
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    color:#FF6624;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Dm sans";
+    background-color: white;
+}
+.payment-icon .paypal{
+    margin-left:1200px;
+    height: 40px;
+    width:40px;
+}
+.paypal{
+    height: 40px;
+    width: 40px;
+    margin-top: 60px;
+}
+.mastercard{
+    margin-top: -20px;
+    margin-left: 1290px;
+}
+.visa{
+    margin-top: -35px;
+    margin-left: 1370px;
+}
