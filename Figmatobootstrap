@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figmatobootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="Logo_with_TM_200x 1.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Our Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">FAQs</a>
+              </li>
+              </ul>
+           <div class="d-flex align-items-center gap-4">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button type="button" class="btn btn-danger">Sign In</button>
+           </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav bar -->
+    <!-- banner part -->
+      <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="banner-text">
+                        <h1>Collect Real & Organic <span>Instagram</span> Followers</h1>
+                        <p>We're the only service in the world that provides you with likes from real people. Try our free trial and see for yourself</p>
+                        <button type="button" class="btn btn-danger px-4 py-2">Get Started</button>  
+                    </div>
+                </div>
+                <div class="col-6">
+                 <div class="position-relative">
+                    <img src="Group 23.png" class="one-img">
+                    <img src="XMLID_3_.png" class="position-absolute abcd">
+                 </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- banner part -->
+    <!-- banner part-2 -->
+      <section id="part-2">
+        <div class="container">
+           <div class="row bg-light align-items-center">
+                <div class="col-3">
+                    <h1>Instagram 
+                       Likes</h1>
+                </div>
+                <div class="col-3">
+                    <h1>13.68M</h1>
+                    <p>Likes Given</p>
+                </div>
+                <div class="col-3">
+                    <h1>12.74k</h1>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="col-3">
+                    <h1>3.56k</h1>
+                    <p>Became Famous</p>
+                </div>
+           </div>
+           <div id="textp2">
+           <div class="row">
+             <div class="col-12">
+                <h1>How Pump Insta Work</h1>
+                <p>However, if they see other members in their social network actively participating,it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! Buy Instagram followers, likes and views that are delivered in stantly and safely.</p>
+            </div>
+           </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="insta shadow">
+                <img src="Group 979.png" width="80">
+                <h2>Pick a package</h2>
+                <p>Choose the Instagram likes, followers, or views package that you're interested in. Feel free to get in touch if you have an inquiry about a bulk order.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="insta shadow">
+                <img src="abul.png" width="80">
+                <h2>Enter Details</h2>
+                <p>We will never ask you for sensitive details such as your password. All you have to do is provide us with your Instagram username and leave the rest to us!</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="insta shadow">
+                <img src="mofiz.png" width="80">
+                <h2>See the growth</h2>
+                <p>All orders start within a few minutes, so you'll see growth in your Instagram account very quickly. We've made the process super easy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle">
+            <img src="Rectangle 29.png ">
+          <div class="play">
+            <img src="Polygon 2.png">
+            <div class="play-2"><img src="Ellipse 7.png"></div>
+          </div>
+        </div>
+        </div>
+      </section>
+    <!-- banner part-2 -->
+     <!-- banner part-3 -->
+      <section class="ash bg-light">
+        <div class="container">
+           <div id="why">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h1>Why choose Pump Insta</h1>
+                    <p>However, if they see other members in their social network  actively participating, 
+                    it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! Buy Instagram followers, likes and views that are delivered instantly and safely.</p>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="pump-insta shadow">
+                <img src="Group 37.png">
+                <h1>High Quality Profiles</h1>
+                <p>When purchasing followers, likes, or views for your Instagram profile, you need those accounts to be of the highest quality. Pump Insta is famed for quality service and that’s why all our services are fulfilled with genuine users and high-quality profiles, so you know your Insta reputation is in good hands</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="pump-insta shadow "> 
+                <img src="Group 38.png">
+                <h1>Instant Delivery</h1>
+                <p>We know that time is money. So when you purchase from iDigic, you can expect delivery of your Instagram followers, likes, or views to begin within 30 seconds after payment. Having an issue? Our dedicated support team is available for you 24/7 over email and chat.</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="pump-insta shadow">
+                <img src="Group 41.png">
+                <h1>24/7 Customer Support</h1>
+                <p>If you have any issues or doubts with our service, you can contact us at any time of the day. We work 24*7 in order to deliver the best possible service to you. Feel free to hit us up!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- banner part-3 -->
+      <!-- banner final -->
+       <section>
+        <div class="container">
+            <div class="row ">
+                <div class="col-6" id="pump">
+                   <div class="pump-2 ">
+                        <h1>How Pump Insta Work</h1>
+                        <p>However, if they see other members in their social network actively participating, 
+                        it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! Buy Instagram followers, likes and views that are delivered instantly and safely.</p>
+                   </div>
+                </div>
+                <div class="col-6">
+                    <div class="pump-img">
+                      <img src="XMLID_3_.png">
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 my-5">
+                  <div class="p-1 shadow">
+                    <div class="save">
+                     <span class="border py-3 px-5">Save $2</span> 
+                    </div>
+                    <div class="followers">
+                      <h1>Instagram Followers</h1>
+                      <p><img src="correct.png"> Likes From Real Users</p>
+                      <p><img src="correct.png">Instant Start (No delay)</p>
+                      <p><img src="correct.png">Control Delivery Speed</p>
+                      <p><img src="correct.png">No Password Required</p>
+                    </div>
+                    <div class="dollar"><h1>$9.95</h1></div>
+                    <button type="button" class="btn btn-danger px-4 py-2">Purchase</button>  
+                </div>
+                </div>
+                <div class="col-4 my-5">
+                  <div class="p-1 shadow">
+                    <div class="save">
+                     <span class="border py-3 px-5">Save $2</span> 
+                    </div>
+                    <div class="followers">
+                      <h1>Instagram Followers</h1>
+                      <p><img src="correct.png"> Likes From Real Users</p>
+                      <p><img src="correct.png">Instant Start (No delay)</p>
+                      <p><img src="correct.png">Control Delivery Speed</p>
+                      <p><img src="correct.png">No Password Required</p>
+                    </div>
+                    <div class="dollar-2"><h1>$9.90</h1></div>
+                    <button type="button" class="btn btn-danger px-4 py-2">Purchase</button>  
+                </div>
+                </div>
+                <div class="col-4 my-5">
+                  <div class="p-1 shadow">
+                    <div class="save">
+                     <span class="border py-3 px-5">Save $2</span> 
+                    </div>
+                    <div class="followers">
+                      <h1>Instagram Followers</h1>
+                      <p><img src="correct.png"> Likes From Real Users</p>
+                      <p><img src="correct.png">Instant Start (No delay)</p>
+                      <p><img src="correct.png">Control Delivery Speed</p>
+                      <p><img src="correct.png">No Password Required</p>
+                    </div>
+                    <div class="dollar"><h1>$9.95</h1></div>
+                    <button type="button" class="btn btn-danger px-4 py-2">Purchase</button>  
+                 </div>
+                </div>   
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-6 mx-5 my-5">
+            <div class="customer-img position-absolute">
+              <img src="XMLID_3_.png" style="position: relative;">
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="customer-text">
+              <h1>Our Customer Rating</h1>
+              <p>However, if they see other members in their social network actively participating, 
+              it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! Buy Instagram followers, likes and views that are delivered instantly and safely.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="customer shadow my-5 ">
+              <div class="twopro">
+                <div class="cus1p-1">
+                  <img src="Ellipse 3.png">
+                  <h1>Lynn Patterson</h1>
+                </div>
+                <div class="dot-1">
+                  <img src="Group 53.png">
+                </div>
+              </div>
+              <div class="cus1p-2 shadow my-3 px-5">
+                <div class="star-1">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                </div>
+                <div class="text-cus1">
+                  <p>However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!</p>
+                </div>
+              </div>
+              <div class="cus1p-3">
+                <div class="left">
+                  <img src="Vector.png">
+                  <img src="Frame.png">
+                  <img src="Frame (1).png">
+                </div>
+                  <img src="Frame (2).png">
+              </div>
+            </div>
+          </div>
+          <div class="col-4 ">
+            <div class="customer shadow my-5">
+              <div class="twopro">
+                <div class="cus1p-1">
+                  <img src="Ellipse 3 (2).png">
+                  <h1>Emmett Bowers</h1>
+                </div>
+                <div class="dot-1">
+                  <img src="Group 53.png">
+                </div>
+              </div>
+              <div class="cus1p-2 shadow my-3 px-5">
+                <div class="star-1">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                </div>
+                <div class="text-cus1">
+                  <p>However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!</p>
+                </div>
+              </div>
+              <div class="cus1p-3">
+                <div class="left">
+                  <img src="Vector.png">
+                  <img src="Frame.png">
+                  <img src="Frame (1).png">
+                </div>
+                  <img src="Frame (2).png">
+              </div>
+            </div>
+          </div>
+          <div class="col-4 ">
+            <div class="customer shadow my-5">
+              <div class="twopro">
+                <div class="cus1p-1">
+                  <img src="Ellipse 3 (1).png">
+                  <h1>@Kiyan S.</h1>
+                </div>
+                <div class="dot-1">
+                  <img src="Group 53.png">
+                </div>
+              </div>
+              <div class="cus1p-2 shadow my-3 px-5">
+                <div class="star-1">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                  <img src="Vector.png">
+                </div>
+                <div class="text-cus1">
+                  <p>However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!</p>
+                </div>
+              </div>
+              <div class="cus1p-3">
+                <div class="left">
+                  <img src="Vector.png">
+                  <img src="Frame.png">
+                  <img src="Frame (1).png">
+                </div>
+                  <img src="Frame (2).png">
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="row">
+          <div class="col-12 py-5">
+            <div class="know">
+              <h1>Everything You Need to Know</h1>
+              <p>However, if they see other members in their social network actively participating, 
+              it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! Buy Instagram followers, likes and views that are delivered instantly and safely.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="accordion my-5 mx-5" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Is There Any Risk To My Account?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How Are You Different From Other Services?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Do You Follow / Unfollow?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="accordion my-5 mx-5" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    Will I Lose My Followers If I Cancel?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    How Fast Will I See Results?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Are The Followers Real?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    What’s Required On My End?
+                  </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    However, if they see other members in their social network actively participating,  it makes investing time into a social media profile both fun and easy. Pump Insta is here to help! it makes investing time into a social media profile both fun and easy. Pump Insta is here to help!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- banner final -->
+       <!-- footer part -->
+        <section id="footer">
+          <div class="row">
+            <div class="col-4">
+              <div class="one">
+                  <img src="Logo_with_TM_200x 1.png">
+                  <p>However, if they see other members in their social network actively participating,  it makes investing time into a social.</p>
+                <div class="icon">
+                  <img src="Group 76.png">
+                  <img src="linkedin-icon 1.png">  
+                </div> 
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="two">
+                <h1 class="our">Our Policy</h1>
+                <p>Search</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Refund Policy</p>
+                <p>Money Back Guarantee </p>
+                <p>Private Policy</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="three">
+                <div class="head">
+                  <h1>Sign Up & Save</h1>
+                  <p>However, if they see other members in their social network actively.</p>
+                </div>
+                <div class="email">
+                  <div class="">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+                  </div>
+                 <div><button type="button" class=" btn-danger px-4 py-2 ">Subscribe</button></div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <!-- footer part -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
